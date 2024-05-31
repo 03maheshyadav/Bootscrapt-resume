@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family:'Roboto',sans-serif !important;
+    font-size:15px;
+    line-height:2em;
+    color:#333;
+    font-weight:400;
+    background: #fff;
+}
+.header {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+.header .profile-image {
+    position: absolute ;
+    left: 0;
+    top: 0;    
+     z-index: -1;
+    width: 100%;
+    height: 100%;
+   background-image: url(../img/Mahesh\ Yadav.jpeg);
+    background-size: cover;
+    background-position:  top center;
+}
+.header .profile-image:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(-30deg,rgb(185, 143, 148) 0%,rgb(209, 149, 227) 20%, transparent 30%,transparent 80%);
+}
+.columns-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left-col-block {
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+}
+.right-col-block {
+ width: 50%;
+position: absolute;
+right: 0;
+
+
+}
+.section-wrapper {
+padding: 50px;
+}
+.section-title {
+margin-bottom: 15px;
+
+}
+.section-title h2 {
+    
+    color: #4f4b4b;
+}
+.expertise-wrapper {
+    background-color: #f1e9e9;
+}
+.expertise-iteam {
+    margin-bottom: 20px;
+
+}
+.expertise-iteam  h3{
+    margin-bottom: 50px;
+    color: #333;
+    font-weight:700 ;
+    
+}
+.header .content {
+position:absolute;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+margin: 0 auto;
+padding:10%;
+}
+.header .content h1 {
+    font-size: 36px;
+    color: white;
+    line-height: 1;
+    margin: 0;
+}
+.header .content p {
+    font-size: 20px;
+    color: #fff;
+}
+.header .content .social-icon {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.header .content .social-icon li {
+    display: inline-block;
+    margin: 0 2px;
+}
+.header .content .social-icon li a {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    line-height: 32px;
+     border-radius: 100%;
+    text-align: center;
+    border: 2px solid #555;
+    
+}
+.header .content .header .contanet .social-icon li a:hover {
+border-color: #fff;
+}
+.form-label {
+font-size: large;
+font-weight: 500;
+}
+
+a {
+    color: #0AEAF3 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color:#F1C510 ;
+    text-decoration: none !important;
+}
+p {
+    margin-bottom: 20px !important;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.columns-block {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+}
+.left-col-block {
+width: 50%;
+text-align: center;
+overflow: hidden;
+position: fixed;
+left: 0;
+}
+.right-col-block {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
